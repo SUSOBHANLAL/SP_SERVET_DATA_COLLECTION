@@ -157,29 +157,42 @@
               >5. Education<span class="required">*</span></span
             >
             <div class="gender-category">
-              <input
-                type="radio"
-                name="education"
-                value="Grade 10 or below"
-                required
-              />
-              <label for="Education">Grade 10 or below</label>
-              <input
-                type="radio"
-                name="education"
-                value="Intermediate(Grade 12)"
-                required
-              />
-              <label for="Education">Intermediate (Grade 12)</label>
-              <input type="radio" name="education" value="Graduate" required />
-              <label for="Education">Graduate</label>
-              <input
-                type="radio"
-                name="education"
-                value="Post Graduate and above"
-                required
-              />
-              <label for="Education">Post Graduate and above</label>
+              <div>
+                <input
+                  type="radio"
+                  name="education"
+                  value="Grade 10 or below"
+                  required
+                />
+                <label for="Education">Grade 10 or below</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="education"
+                  value="Intermediate(Grade 12)"
+                  required
+                />
+                <label for="Education">Intermediate (Grade 12)</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="education"
+                  value="Graduate"
+                  required
+                />
+                <label for="Education">Graduate</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="education"
+                  value="Post Graduate and above"
+                  required
+                />
+                <label for="Education">Post Graduate and above</label>
+              </div>
             </div>
           </div>
         </div>
@@ -275,30 +288,52 @@
               transport?</span
             >
             <div class="gender-category">
-              <input type="radio" name="travel_work" value="1" required />
-              <label for="">Once a week or less</label>
-              <input type="radio" name="travel_work" value="2" required />
-              <label for="">2-3 times</label>
-              <input type="radio" name="travel_work" value="3" required />
-              <label for="">4-5 times</label>
-              <input type="radio" name="travel_work" value="4" required />
-              <label for="">5-6 times</label>
-              <input type="radio" name="travel_work" value="5" required />
-              <label for="">more than 6 times</label>
+              <div>
+                <input type="radio" name="travel_work" value="1" required />
+                <label for="">Once a week or less</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_work" value="2" required />
+                <label for="">2-3 times</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_work" value="3" required />
+                <label for="">4-5 times</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_work" value="4" required />
+                <label for="">5-6 times</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_work" value="5" required />
+                <label for="">more than 6 times</label>
+              </div>
             </div>
             <span class="gender-title"
               >10. With whom do you usually travel to public transport
               stop?</span
             >
             <div class="gender-category">
-              <input type="radio" name="travel_partner" value="1" required />
-              <label for="">Alone</label>
-              <input type="radio" name="travel_partner" value="2" required />
-              <label for="">With colleagues</label>
-              <input type="radio" name="travel_partner" value="3" required />
-              <label for="">With friends</label>
-              <input type="radio" name="travel_partner" value="4" required />
-              <label for="">With family</label>
+              <div>
+                <input type="radio" name="travel_partner" value="1" required />
+                <label for="">Alone</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_partner" value="2" required />
+                <label for="">With colleagues</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_partner" value="3" required />
+                <label for="">With friends</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_partner" value="4" required />
+                <label for="">With family</label>
+              </div>
               <input
                 type="radio"
                 name="travel_partner"
@@ -318,22 +353,35 @@
               >11. What other purpose do you use public transport?</span
             >
             <div class="gender-category">
-              <input type="radio" name="travel_purpose" value="1" required />
-              <label for="">Groceries</label>
-              <input type="radio" name="travel_purpose" value="2" required />
-              <label for="">Entertainment</label>
-              <input type="radio" name="travel_purpose" value="3" required />
-              <label for="">Shopping</label>
-              <input type="radio" name="travel_purpose" value="4" required />
-              <label for="">Visiting family/friends</label>
-              <input
-                type="radio"
-                name="travel_purpose"
-                value="5"
-                id="OtherPurpose"
-                required
-              />
-              <label for="">Others</label>
+              <div>
+                <input type="radio" name="travel_purpose" value="1" required />
+                <label for="">Groceries</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_purpose" value="2" required />
+                <label for="">Entertainment</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_purpose" value="3" required />
+                <label for="">Shopping</label>
+              </div>
+
+              <div>
+                <input type="radio" name="travel_purpose" value="4" required />
+                <label for="">Visiting family/friends</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="travel_purpose"
+                  value="5"
+                  id="OtherPurpose"
+                  required
+                />
+                <label for="">Others</label>
+              </div>
               <input
                 type="text"
                 name="OtherTravelPurpose"
@@ -347,16 +395,26 @@
               mentioned in above question?</span
             >
             <div class="gender-category">
-              <input type="radio" name="travel_11" value="1" required />
-              <label for="">Once in a month or less</label>
-              <input type="radio" name="travel_11" value="2" required />
-              <label for="">Once in every 3 weeks</label>
-              <input type="radio" name="travel_11" value="3" required />
-              <label for="">Once in every 2 weeks</label>
-              <input type="radio" name="travel_11" value="4" required />
-              <label for="">Once in every week</label>
-              <input type="radio" name="travel_11" value="5" required />
-              <label for="">More than once a week</label>
+              <div>
+                <input type="radio" name="travel_11" value="1" required />
+                <label for="">Once in a month or less</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_11" value="2" required />
+                <label for="">Once in every 3 weeks</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_11" value="3" required />
+                <label for="">Once in every 2 weeks</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_11" value="4" required />
+                <label for="">Once in every week</label>
+              </div>
+              <div>
+                <input type="radio" name="travel_11" value="5" required />
+                <label for="">More than once a week</label>
+              </div>
             </div>
           </div>
         </div>
@@ -627,7 +685,7 @@
           <!--Fourth column-->
           <div class="fourth_column">
             <img src="right.png" alt="Your Image" />
-            <p>Main Mile Mode</p>
+            <p class="mainmilemode">Main Mile Mode</p>
             <div class="text-container11">
               <label class="label1">
                 <input type="radio" name="cToe" value="Bus" />
@@ -785,7 +843,9 @@
                   </div>
                 </ul>
 
-                <button onclick="closePopupf()">Close</button>
+                <button class="transpotationback" onclick="closePopupf()">
+                  Close
+                </button>
               </div>
             </div>
             <!-- <div class="text-container">

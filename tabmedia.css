@@ -50,6 +50,7 @@
 
   .first-column img {
     padding-left: 15%;
+    border-radius: 50%;
   }
   .after-left-column p {
     text-align: center;
@@ -97,7 +98,14 @@
     justify-items: center;
     align-content: center;
   }
+  .mainmilemode {
+    font-family: "Times New Roman";
 
+    border: 2px solid rgb(153, 37, 37);
+    border-radius: 23px;
+
+    font-weight: 400;
+  }
   .after-left-column .text-container {
     justify-content: left;
     justify-content: center;
@@ -155,6 +163,7 @@
     overflow: hidden;
     margin: 0 auto 10px;
   }
+
   /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
   .rowtextdata {
     width: 19%;
